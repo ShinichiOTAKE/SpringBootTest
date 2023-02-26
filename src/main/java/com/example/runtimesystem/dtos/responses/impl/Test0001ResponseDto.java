@@ -1,9 +1,9 @@
-package com.example.runtimesystem.dto.response.impl;
+package com.example.runtimesystem.dtos.responses.impl;
 
 import java.util.List;
 import java.util.Map;
 
-import com.example.runtimesystem.dto.response.TransformableJson;
+import com.example.runtimesystem.dtos.responses.TransformableJson;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.example.runtimesystem.controller;
+package com.example.runtimesystem.controllers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.runtimesystem.dto.response.TransformableJson;
-import com.example.runtimesystem.dto.response.impl.Test0001ResponseDto;
-import com.example.runtimesystem.dto.response.impl.TestChildDto;
+import com.example.runtimesystem.dtos.responses.TransformableJson;
+import com.example.runtimesystem.dtos.responses.impl.Test0001ResponseDto;
+import com.example.runtimesystem.dtos.responses.impl.TestChildDto;
 
 @RestController
 @RequestMapping("/test")

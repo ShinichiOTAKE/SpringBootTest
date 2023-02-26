@@ -1,4 +1,4 @@
-package com.example.runtimesystem.dto.response.impl;
+package com.example.runtimesystem.dtos.responses.impl;
 
 import lombok.Data;
 
